@@ -1,0 +1,22 @@
+{
+  "name": "smn/hierarchynode",
+  "description": "Hierarchy node with properties",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Simone",
+      "email": "simone.esposito1986@gmail.copm"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "smn\\hnp\\": "src/" }
+  },
+  "require": {
+    "php": "^7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "dev-master",
+    "friendsofphp/php-cs-fixer": "dev-master"
+  }
+}
